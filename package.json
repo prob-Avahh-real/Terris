@@ -1,0 +1,14 @@
+{
+  "name": "terris",
+  "version": "1.0.0",
+  "description": "Terris - A classic Tetris game in HTML/JS",
+  "private": true,
+  "scripts": {
+    "start": "npx serve .",
+    "validate": "node scripts/validate.js",
+    "test": "node scripts/validate.js"
+  },
+  "devDependencies": {
+    "serve": "^14.2.0"
+  }
+}
